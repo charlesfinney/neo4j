@@ -9,8 +9,12 @@ Data driven decisions possible thousands of times faster by recognizing patterns
 filling the need to make quick sense data relationships
 [Better data Better decisions](https://youtu.be/_D19h5s73Co)
 
-
-## Mashine learning 
+## What is Cypher
+### Graph pattern matching
+(Node)-[:RELATIONSHIP]->(Node)  
+or even  
+(Node {key: value})-[:RELATIONSHIP]->(Node)  
+## Machine learning 
 Using Neo4j and Machine Learning to Create a Decision Engine — Tim Ward, CluedIn  
 [Using Neo4j and Machine Learning to Create a Decision Engine — Tim Ward, CluedIn](https://youtu.be/jiE3wsrVUQs)  
 [Slides](https://www.slideshare.net/neo4j/graphconnect-europe-2017-using-neo4j-and-machine-learning-to-create-a-decision-engine-cluedin)
