@@ -11,9 +11,17 @@ filling the need to make quick sense data relationships
 
 ## What is Cypher
 ### Graph pattern matching
+a direct relationship
 (Node)-[:RELATIONSHIP]->(Node)  
-or even  
+or   
 (Node {key: value})-[:RELATIONSHIP]->(Node)  
+or even traverse two relationships deep  
+(Node {key: value})-[:RELATIONSHIP*..2]->(Node)  
+## open source 
+[open Cypher](http://www.opencypher.org/)
+## Binary protocol / language drivers
+[Bolt]()
+
 ## Machine learning 
 Using Neo4j and Machine Learning to Create a Decision Engine — Tim Ward, CluedIn  
 [Using Neo4j and Machine Learning to Create a Decision Engine — Tim Ward, CluedIn](https://youtu.be/jiE3wsrVUQs)  
